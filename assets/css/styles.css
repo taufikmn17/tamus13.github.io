@@ -305,7 +305,7 @@ input {
 
 .home__container {
   position: relative;
-  height: calc(70vh - var(--header-height));
+  height: calc(50vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
   margin-top: -3rem; /* Menambahkan margin atas sebesar 1rem */
