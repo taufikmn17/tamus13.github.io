@@ -983,7 +983,6 @@ input {
 /* Aturan media query untuk perangkat dengan lebar layar tertentu */
 @media screen and (max-width: 1080px) {
   .home__container {
-    width: 100%;
     height: auto; /* Menghilangkan tinggi tetap */
     display: flex; /* Menggunakan display flex */
     flex-direction: column; /* Mengubah tata letak menjadi kolom */
