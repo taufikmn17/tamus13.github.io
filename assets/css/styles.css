@@ -984,11 +984,21 @@ input {
 @media screen and (max-width: 1080px) {
   .home__container {
     height: auto; /* Menghilangkan tinggi tetap */
+    display: flex; /* Menggunakan display flex */
+    flex-direction: column; /* Mengubah tata letak menjadi kolom */
+    justify-content: center; /* Pusatkan elemen vertikal */
+    align-items: center; /* Pusatkan elemen horizontal */
+    text-align: center; /* Pusatkan teks */
+  }
+  .home__data{
+    margin-top: 20%;
   }
 
   .home__info {
-    width: 100%; /* Lebar penuh pada layar kecil */
+    justify-content: center;
+    width: 50%; /* Lebar penuh pada layar kecil */
     position: static; /* Menghapus posisi absolut */
+    
   }
 }
 
