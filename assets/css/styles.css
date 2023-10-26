@@ -306,7 +306,7 @@ input {
 /* Menggeser .home__container ke atas */
 .home__container {
   position: relative;
-  height: calc(100vh - var(--header-height));
+  height: calc(70vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
   margin-top: -1rem; /* Menggeser ke atas sebesar -1rem */
@@ -316,7 +316,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  bottom: -1rem; /* Menggeser ke bawah sebesar -1rem */
+  bottom: 2rem; /* Menggeser ke bawah sebesar -1rem */
   color: var(--white-color);
 }
 
