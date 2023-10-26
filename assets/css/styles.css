@@ -308,7 +308,6 @@ input {
   height: calc(50vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  margin-top: -3rem; /* Menambahkan margin atas sebesar 1rem */
 }
 
 .home__data-subtitle, 
@@ -351,7 +350,6 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
-  margin-bottom: -4rem; /* Menggeser ke bawah sebesar 0.5rem */
 }
 
 .home__info-title {
