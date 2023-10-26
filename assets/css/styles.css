@@ -308,6 +308,7 @@ input {
   height: calc(70vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+  margin-bottom: 3rem; 
 }
 
 .home__data-subtitle, 
