@@ -305,10 +305,9 @@ input {
 
 .home__container {
   position: relative;
-  height: calc(50vh - var(--header-height));
+  height: calc(80vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  margin-bottom: 1rem; 
 }
 
 .home__data-subtitle, 
