@@ -309,14 +309,14 @@ input {
   height: calc(70vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  margin-top: -1rem; /* Menggeser ke atas sebesar -1rem */
+  margin-top: -4rem; /* Menggeser ke atas sebesar -1rem */
 }
 
 .home__data-subtitle, 
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  bottom: 2rem; /* Menggeser ke bawah sebesar -1rem */
+  margin-bottom: -5rem;
   color: var(--white-color);
 }
 
