@@ -316,8 +316,13 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  margin-bottom: 2rem;
   color: var(--white-color);
+}
+
+@media (min-width: 768px) {
+  .home__info {
+    margin-bottom: 2rem;
+  }
 }
 
 .home__data-subtitle {
