@@ -316,7 +316,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  margin-bottom: -5rem;
+  margin-bottom: 2rem;
   color: var(--white-color);
 }
 
@@ -420,7 +420,7 @@ input {
 
 .about__container {
   row-gap: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .about__description {
