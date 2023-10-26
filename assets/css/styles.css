@@ -316,6 +316,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
+  bottom: -1rem; /* Menggeser ke bawah sebesar -1rem */
   color: var(--white-color);
 }
 
