@@ -591,7 +591,8 @@ input {
 
 /*=============== PLACES ===============*/
 .place__card, .place__img {
-  height: 230px;
+  width: auto; /* Lebar gambar 100% dari parent (kartu) */
+  height: auto; /* Tinggi gambar otomatis menyesuaikan lebar */
 }
 
 .place__container {
