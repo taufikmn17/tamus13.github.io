@@ -306,7 +306,7 @@ input {
 /* Menggeser .home__container ke atas */
 .home__container {
   position: relative;
-  height: calc(90vh - var(--header-height));
+  height: calc(80vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
   margin-top: -4rem; /* Menggeser ke atas sebesar -1rem */
