@@ -980,6 +980,19 @@ input {
   }
 }
 
+/* Aturan media query untuk perangkat dengan lebar layar tertentu */
+@media screen and (max-width: 1080px) {
+  .home__container {
+    height: auto; /* Menghilangkan tinggi tetap */
+  }
+
+  .home__info {
+    width: 100%; /* Lebar penuh pada layar kecil */
+    position: static; /* Menghapus posisi absolut */
+  }
+}
+
+
 /* For large devices */
 @media screen and (min-width: 1024px) {
   .container {
