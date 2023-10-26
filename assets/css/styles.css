@@ -388,18 +388,6 @@ input {
   transform: var(--img-scale);
 }
 
-/* Responsif untuk layar kecil (misalnya, ponsel) */
-@media (max-width: 767px) {
-  .home__data-title {
-    font-size: 24px; /* Ubah ukuran font sesuai kebutuhan */
-  }
-  
-  .home__info {
-    width: 100%; /* Lebar penuh pada layar kecil */
-  }
-}
-
-
 /*=============== BUTTONS ===============*/
 /* Gaya tombol video */
 .button.button--flex.video__button {
