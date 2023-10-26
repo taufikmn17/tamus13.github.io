@@ -829,7 +829,7 @@ input {
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
-  .place__container {
+  .home__info {
     grid-template-columns: max-content;
     justify-content: center;
   }
