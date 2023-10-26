@@ -594,14 +594,6 @@ input {
   height: 230px;
 }
 
-/* Aturan CSS untuk layar dengan lebar kurang dari 768px (perangkat seluler) */
-@media (max-width: 768px) {
-  .place__card .place__img {
-    width: 100%; /* Mengatur ulang lebar gambar agar responsif */
-    height: auto;
-  }
-}
-
 .place__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
