@@ -308,6 +308,7 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+  margin-top: -3rem; /* Menambahkan margin atas sebesar 1rem */
 }
 
 .home__data-subtitle, 
