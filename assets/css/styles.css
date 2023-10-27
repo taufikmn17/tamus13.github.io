@@ -981,7 +981,7 @@ input {
 }
 
 /* Aturan media query untuk perangkat dengan lebar layar tertentu */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 720px) {
   .home__container {
     height: auto; /* Menghilangkan tinggi tetap */
     display: flex; /* Menggunakan display flex */
@@ -990,14 +990,13 @@ input {
     align-items: center; /* Pusatkan elemen horizontal */
     text-align: center; /* Pusatkan teks */
   }
-  .about__data{
-    margin-top: auto;
-  }
+  
   .home__data{
     margin-top: 20%;
   }
 
   .home__info {
+    margin-top: -10%;
     justify-content: center;
     width: 50%; /* Lebar penuh pada layar kecil */
     position: static; /* Menghapus posisi absolut */
