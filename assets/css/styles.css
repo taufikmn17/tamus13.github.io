@@ -429,7 +429,7 @@ input {
 
 .about__container {
   row-gap: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .about__description {
@@ -1000,10 +1000,6 @@ input {
     justify-content: center;
     width: 50%; /* Lebar penuh pada layar kecil */
     position: static; /* Menghapus posisi absolut */
-  }
-
-  .about__container{
-    margin-top: 5rem
   }
 }
 
