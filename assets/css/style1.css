@@ -71,8 +71,8 @@ body{
 .container .link-bio{
     position: relative;
     z-index: 2;
-    width: 30vw;
-    margin: 0 auto;
+    width: 35vw;
+    margin: 0 auto 5rem;
 }
 
 .container .link-bio .profile-photo{

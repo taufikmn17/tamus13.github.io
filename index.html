@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="./assets/css/style1.css">
 
+    <script src="./assets/js/script1.js"></script>
+
     <title>hello</title>
 
 </head>
@@ -34,7 +36,17 @@
 
             <div class="profile-photo">
                 <img src="./assets/img-awal/profil1.jpg" alt="profile photo"> </div>
-                 <p>Web Wib Wub</p>
+                <p id="typing">Bona valetudo melior est quam maximae divitiae.</p>
+                <script src="https://unpkg.com/typeit/dist/index.umd.js"></script>
+                <script>
+                  document.addEventListener("DOMContentLoaded", function () {
+                    new TypeIt("#typing", {
+                        speed: 150,
+                        waitUntilVisible: true,
+                        loop: true, 
+                      }).go();
+                    })
+                </script>
             <div class="link-buttons"> <ul>
                 <li><a href="index2.html">HiHiHi❤️</a></li>
                 <li><a href="#">Coming Soon</a></li>
@@ -44,6 +56,7 @@
             <!-- <p>©2023 Taufik Mustafa</p> -->
             </div>
     </div>
-    <script src="./assets/js/script1.js"></script>
+    
+    
 </body>
 </html>
