@@ -108,6 +108,7 @@ body{
 .container .link-bio .link-buttons ul li{
     background: white;
     transition: background 300ms ease;
+    border-radius: 50px;
 }
 
 .container .link-bio .link-buttons ul li a{
