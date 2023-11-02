@@ -197,6 +197,10 @@ input {
 }
 
 /*=============== NAV ===============*/
+.arrow-left {
+  color: white;
+}
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -309,11 +313,11 @@ input {
   height: calc(80vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  margin-top: -4rem; /* Menggeser ke atas sebesar -1rem */
+  margin-top: -2rem; /* Menggeser ke atas sebesar -1rem */
 }
 
 .home__data {
-  margin-bottom: 2rem;
+  margin-bottom: -1rem;
 }
 
 .home__data-subtitle, 
@@ -360,7 +364,7 @@ input {
   column-gap: .5rem;
   position: absolute;
   right: 0;
-  bottom: 1rem;
+  margin-bottom: -2rem;
   width: 228px;
 }
 
@@ -866,6 +870,31 @@ input {
   }
 }
 
+/* Aturan media query untuk perangkat dengan lebar layar tertentu */
+@media screen and (max-width: 790px) {
+  .home__container {
+    height: auto; /* Menghilangkan tinggi tetap */
+    display: flex; /* Menggunakan display flex */
+    flex-direction: column; /* Mengubah tata letak menjadi kolom */
+    justify-content: center; /* Pusatkan elemen vertikal */
+    align-items: center; /* Pusatkan elemen horizontal */
+    text-align: center; /* Pusatkan teks */
+  }
+  .home__data{
+    margin-top: 20%;
+    width: 45rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+
+  }
+  .home__info {
+    margin-top: -10%;
+    justify-content: center;
+    width: 50%; 
+    position: static; 
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -979,30 +1008,6 @@ input {
     justify-content: space-between;
   }
 }
-
-/* Aturan media query untuk perangkat dengan lebar layar tertentu */
-@media screen and (max-width: 720px) {
-  .home__container {
-    height: auto; /* Menghilangkan tinggi tetap */
-    display: flex; /* Menggunakan display flex */
-    flex-direction: column; /* Mengubah tata letak menjadi kolom */
-    justify-content: center; /* Pusatkan elemen vertikal */
-    align-items: center; /* Pusatkan elemen horizontal */
-    text-align: center; /* Pusatkan teks */
-  }
-  
-  .home__data{
-    margin-top: 20%;
-  }
-
-  .home__info {
-    margin-top: -10%;
-    justify-content: center;
-    width: 50%; /* Lebar penuh pada layar kecil */
-    position: static; /* Menghapus posisi absolut */
-  }
-}
-
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
